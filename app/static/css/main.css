@@ -1,0 +1,25 @@
+body {
+    background-color: #f50057;
+    font-family: Roboto, sans-serif;
+    color: #ffffee;
+}
+
+input {
+	color: black;
+}
+
+a {
+	color: #ffffee;
+}
+
+.main-header {
+	font-family: Ubuntu, sans-serif;
+	border-bottom: 2px solid #ffffee;
+}
+
+.color-header {
+    background-color: #ffee58;
+    color: blue;
+    width: 100%;
+    display: inline;
+}
