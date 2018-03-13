@@ -20,15 +20,17 @@ class Main extends Component {
         return (
                 <HashRouter>
                     <div>
-                        <h1 className='main-header'>tal yaacovi</h1>
+                        <div className='main-div row'>
+                            <h1 className='main-header col-xs-6'>tal yaacovi</h1>                        
+                            <ul className='nav col-xs-6'>
+                                {/*<li><NavLink to='/'>Home</NavLink></li>*/}
+                                <li><NavLink to='/about'>About Me</NavLink></li>
+                                <li><NavLink to='/projects'>Projects</NavLink></li>
+                                <li><NavLink to='/skills'>Skills</NavLink></li>
+                                <li><NavLink to='/contact'>Contact</NavLink></li>
+                            </ul>
+                        </div>
                         <Home />
-                        <ul>
-                            {/*<li><NavLink to='/'>Home</NavLink></li>*/}
-                            <li><NavLink to='/about'>About Me</NavLink></li>
-                            <li><NavLink to='/projects'>Projects</NavLink></li>
-                            <li><NavLink to='/skills'>Skills</NavLink></li>
-                            <li><NavLink to='/contact'>Contact</NavLink></li>
-                        </ul>
                         <div className='content'>
                             {/*<Route exact path='/' component={Home}/>*/}
                             <Route path='/about' component={About}/>

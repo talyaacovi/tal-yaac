@@ -4,17 +4,17 @@ body {
     color: #ffffee;
 }
 
-input {
+input, textarea {
 	color: black;
-}
-
-a {
-	color: #ffffee;
 }
 
 .main-header {
 	font-family: Ubuntu, sans-serif;
+}
+
+.main-div {
 	border-bottom: 2px solid #ffffee;
+	margin-bottom: 1%;
 }
 
 .color-header {
@@ -22,4 +22,46 @@ a {
     color: blue;
     width: 100%;
     display: inline;
+}
+
+.active {
+  background-color: #0099FF;
+}
+
+.nav {
+	display: inline-block;
+	margin-top: 20px;
+	text-align: right;
+	padding-right: 0;
+}
+
+ul.nav li {
+	display: inline;
+	list-style-type: none;
+}
+
+ul.nav li a {
+  color: #ffffee;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul.nav li a:hover {
+	background-color: #0099FF;
+}
+
+ul.nav li a:visited {
+	background-color: #0099FF;
+}
+
+a {
+	color: #ffffee;
+	/*font-size: 20px;*/
+}
+
+@media (min-width: 1200px) {
+	.container {
+	     width: 970px; 
+	}
 }
