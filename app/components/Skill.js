@@ -4,15 +4,21 @@ export class Skill extends Component {
 	render() {
 		return (
 				<div>
-					<h2>These are my skills:</h2>
-					<ul className='list-unstyled'>
-						<li>Python</li>
-						<li>Flask</li>
-						<li>React</li>
-						<li>JavaScript</li>
-						<li>jQuery</li>
-						<li>Bootstrap, HTML, CSS</li>
-					</ul>
+					<div className='row'>
+						<div className='col-xs-12'>
+							<h2 className='emphasis'>SKILLS</h2>
+						</div>
+					</div>
+					<div className='row'>
+						<ul className='list-unstyled col-xs-12'>
+							<li>Python</li>
+							<li>Flask</li>
+							<li>React</li>
+							<li>JavaScript</li>
+							<li>jQuery</li>
+							<li>Bootstrap, HTML, CSS</li>
+						</ul>
+					</div>
 				</div>
 			)
 	}

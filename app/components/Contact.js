@@ -43,7 +43,6 @@ export class Contact extends Component {
                 'email': email,
                 'message': message
             }),
-            // success: ajaxSuccess,
             success: function(res){
                 this.setState({emailSent: true});
                 // $('#form-response').text('Email was sent.');
@@ -94,15 +93,15 @@ export class Contact extends Component {
 				<div>
 					<div className='row'>
 						<div className='col-xs-12'>
-							<h2>Let's connect!</h2>
+							<h2 className='emphasis'>CONNECT</h2>
 						</div>
 					</div>
 					<div className='row'>
 						
-						<ul className='col-xs-3 list-unstyled'>
-							<li><a target='_blank' href='https://www.linkedin.com/in/tal-yaacovi/'>LinkedIn</a></li>
-							<li><a target='_blank' href='https://www.github.com/talyaacovi'>GitHub</a></li>
-							<li><a target='_blank' href='https://www.instagram.com/wineyaac'>Instagram</a></li>
+						<ul className='col-xs-2 list-unstyled'>
+							<li><a target='_blank' href='https://www.linkedin.com/in/tal-yaacovi/'><img className='contact-icon' src='/app/static/img/linkedin.png'/></a></li>
+							<li><a target='_blank' href='https://www.github.com/talyaacovi'><img className='contact-icon' src='/app/static/img/github.svg'/></a></li>
+							<li><a target='_blank' href='https://www.instagram.com/wineyaac'><img className='contact-icon' src='/app/static/img/instagram.png'/></a></li>
 						</ul>
 						{contactForm}
 					</div>

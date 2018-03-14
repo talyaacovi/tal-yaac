@@ -4,11 +4,18 @@ export class Project extends Component {
 	render() {
 		return (
 				<div>
-					<h2>Here are some projects I've worked on</h2>
-					<ul className='list-unstyled'>
-						<li><a target='_blank' href='http://www.lolaeats.com'>Lola Eats</a>, Hackbright Final Project</li>
-						<li>Boots & Cats (in development)</li>
-					</ul>
+					<div className='row'>
+						<div className='col-xs-12'>
+							<h2 className='emphasis'>PROJECTS</h2>
+						</div>
+					</div>
+					<div className='row'>
+						<ul className='list-unstyled col-xs-12'>
+							<li><a style={{ fontSize: 20 }} target='_blank' href='https://www.lolaeats.com'>Lola Eats</a>, <span style={{ fontSize: 12 }}>Hackbright Final Project</span></li>
+							<li><img className='img-responsive' src='/app/static/img/lola.png'/></li>
+							{/*}<li>Boots & Cats (in development)</li>*/}
+						</ul>
+					</div>
 				</div>
 			)
 	}

@@ -1,7 +1,8 @@
 body {
     background-color: #f50057;
     font-family: Roboto, sans-serif;
-    color: #ffffee;
+    color: #fcf8e3;
+    font-size: 20px;
 }
 
 input, textarea {
@@ -22,6 +23,12 @@ input, textarea {
     color: blue;
     width: 100%;
     display: inline;
+}
+
+.emphasis {
+	border-bottom: 4px double yellow;
+	padding-left: 8%;
+	margin-bottom: 4%;
 }
 
 .active {
@@ -57,11 +64,20 @@ ul.nav li a:visited {
 
 a {
 	color: #ffffee;
-	/*font-size: 20px;*/
+	font-size: 14px;
 }
 
 @media (min-width: 1200px) {
 	.container {
 	     width: 970px; 
 	}
+}
+
+.contact-icon {
+	height: 60px;
+	margin-top: 7%;
+}
+
+.img-row {
+	margin-top: 4%;
 }
