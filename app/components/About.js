@@ -14,10 +14,10 @@ export class About extends Component {
 							<p>i enjoy the long process of making sourdough from scratch.</p>
 						</div>
 						<div className='col-xs-5'>
-							<img src='/app/static/img/bread1.jpg' className='img-responsive' />
+							<img src='/app/static/img/bread1.JPG' className='img-responsive' />
 						</div>
 						<div className='col-xs-5'>
-							<img src='/app/static/img/bread2.jpg' className='img-responsive' />
+							<img src='/app/static/img/bread2.JPG' className='img-responsive' />
 						</div>
 					</div>
 					<div className='row img-row'>
@@ -25,7 +25,7 @@ export class About extends Component {
 							<img src='/app/static/img/travel1.jpg' className='img-responsive' />
 						</div>
 						<div className='col-xs-5'>
-							<img src='/app/static/img/travel2.jpg' className='img-responsive' />
+							<img src='/app/static/img/travel2.JPG' className='img-responsive' />
 						</div>
 						<div className='col-xs-2'>
 							<p>when i travel, food is an important part of the itinerary.</p>

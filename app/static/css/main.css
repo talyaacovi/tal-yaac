@@ -78,6 +78,42 @@ a {
 	margin-top: 7%;
 }
 
+.contact-icon:hover {
+	opacity: 0.3;
+}
+
 .img-row {
 	margin-top: 4%;
+}
+
+.home-img {
+	border-radius: 50%;
+}
+
+.skills-list li {
+	font-size: 18px;
+}
+
+/*#submit {
+	background-color: yellow;
+}*/
+
+#home-link:visited {
+	color: #fcf8e3;
+}
+
+#home-link:hover {
+	color: #fcf8e3;
+}
+
+#home-link:link {
+	color: #fcf8e3;
+}
+
+#home-link:active {
+	color: #fcf8e3;
+}
+
+label {
+	font-size: 16px;
 }

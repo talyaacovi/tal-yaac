@@ -93,7 +93,7 @@ export class Contact extends Component {
 				<div>
 					<div className='row'>
 						<div className='col-xs-12'>
-							<h2 className='emphasis'>CONNECT</h2>
+							<h2 className='emphasis'>CONTACT</h2>
 						</div>
 					</div>
 					<div className='row'>
