@@ -21,6 +21,7 @@ export class Skill extends Component {
 							<li>SQL, PostgreSQL, SQLAlchemy</li>
 							<li>Git, GitHub, Command Line, Sublime Text</li>
 							<li>AWS (S3, Lambda, API Gateway)</li>
+							<li className='background-yellow'>Currently learning: MERN stack (MongoDB, Express.js, React, Node.js)</li>
 						</ul>
 					</div>
 				</div>
